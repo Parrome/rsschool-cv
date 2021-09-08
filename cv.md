@@ -11,8 +11,10 @@
 - Today I can write something on JS :)
 
 ```
-var i;
-for (i=0; i<5; i++) {
-  console.log(i);
-}
+const bubblesortOnce = function([h, ...t]) {
+  return t.reduce(function(acc, v) {
+    if (h < v) [h, v] = [v, h];
+    return [...acc, v];
+  }, []).concat(h || []);
+};
 ```
