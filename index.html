@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <!-- wrapper container -->
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <img class="my-photo" src="./img/avatar.jpg" alt="My Photo" />
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li><a data-goto=".about" href="#" class="menu__link">About</a></li>
+              <li><a data-goto=".contacts" href="#" class="menu__link">Contacts</a></li>
+              <li><a data-goto=".projects" href="#" class="menu__link">Projects</a></li>
+              <li><a data-goto=".skills" href="#" class="menu__link">Skills</a></li>
+              <li><a data-goto=".experience" href="#" class="menu__link">Experience</a></li>
+              <li><a data-goto=".education" href="#" class="menu__link">Education</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- сайд бар -->
+      <aside class="sidebar">
+        
+        <div class="container">
+          <div class="contacts-container contacts">
+            <!-- contacts container-->
+            <h3 class="contacts-title">Contacts</h3>
+            <ul>
+              <li class="tech-skills-item"><span class="contacts-link-type" >Tel:</span><a class="contacts-link" href="tel:+375297876087">+375 29 787 60 87</a></li>
+              <li class="tech-skills-item tech-skills-item-none"><span class="contacts-link-type">Telegram or Viber</span></li>
+              <li class="tech-skills-item"><span class="contacts-link-type">Mail:</span><a class="contacts-link" href="mailto:paromovwork@gmail.com">paromovwork@gmail.com</a></li>
+              <li class="tech-skills-item"><span class="contacts-link-type">Discord:</span><a class="contacts-link" href="Parrome#4198">Parrome#4198</a></li>
+            </ul>
+          </div>
+          <!-- box for skills -->
+          <div class="skills__box">
+            <!-- tech skills -->
+            <div class="tech-skills-container skills">
+              <h3 class="tech-skills-title">Tech Skills</h3>
+              <ul>
+                <li class="tech-skills-item">
+                  <span class="tech-skill-text" >English level A2</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text" >HTML</span>
+                  </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text">CSS</span>
+                  </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text">JS leaning</span>
+                  </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text">Git</span>
+                  </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text">Photoshop</span>
+                  </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skill-text">Figma</span>
+                  </li>
+              </ul>
+            </div>
+            <div class="soft-skills-container">
+              <!-- soft skills -->
+              <h3 class="soft-skills-title">Soft Skills</h3>
+              <ul>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Sociability</span>
+                  </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Pursuit of the main goal</span>
+                  </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Responsibility</span>
+                  </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">The ability to understand</span>
+                  </li>
+                  <li class="soft-skills-item">
+                      <span class="soft-skills-text">Teamwork</span>
+                  </li>
+              </ul>
+            </div>
+        </div>
+        </div>
+      </aside>
+
+
+      <!-- main container -->
+      <main>
+      
+
+        <!-- about me container -->
+        
+        <div class="about-me-container about container">
+          <!-- about me main container -->
+          <article class="info-container">
+            
+            <h2 class="profession">Student RS School. Minsk, Belarus</h2>       
+            <img class="my-photo2" src="./img/avatar.jpg" alt="My Photo" />     
+            <h1 class="name">Vladislav Paromov</h1>
+            <div class="description">
+              Hey. I am 28 years old, I graduated from a technical university with a degree in mechanical engineer. For six years I
+              have been working as a technician in the field of car sales and repair. Also part of my job was employee management and
+              customer service. Today, I realized that I want to change my life and want to become a full stack front-end developer.
+            </div>
+          </article>
+         
+          <div class="projects-container">
+            <!-- projects container -->
+            <h3 class="about-me-title projects">MY PROJECTS</h3>
+
+            
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__left-box">
+                <a href="https://parrome.github.io/grid/" target="_blank" class="projects-container__img">
+                  <img src="./img/grid.jpg" alt="Grid" />
+                </a>
+              </div>
+              <div class="projects-container__right-box">
+                <h3>Gallery</h3>
+                <p> Built on grid and flash layout. The essence of this module is to split a web page into columns and rows. Elements can be placed in the resulting grid. You can control the size and position of these elements using the special properties of the module.
+                  This ability allows for very flexible display of elements on the screen without changing the structure of the code.</p>
+              </div>
+            </div>
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__left-box">
+                <a href="https://parrome.github.io/task2/" target="_blank" class="projects-container__img">
+                  <img src="./img/flex.jpg" alt="Flex" />
+                </a>
+              </div>
+              <div class="projects-container__right-box">
+                <h3>Flexbox</h3>
+                <p> Flexbox module. Contains a set of properties and their values for both the parent of a flex container and its children of flex items. The main advantage of flexible FLEX layouts is the ability to change the width / height of the space around and the order of flex items in order to best fill the available space of the flex container.</p>
+              </div>
+            </div>
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__left-box">
+                <a href="https://parrome.github.io/task6/" target="_blank" class="projects-container__img">
+                  <img src="./img/layout1.jpg" alt="Layout 1" />
+                </a>
+              </div>
+              <div class="projects-container__right-box">
+                <h3>Internet shop selling tires</h3>
+                <p>  Pixel Accuracy Creation of forms and inputs. Layout using CSS and HTML, using sprites.</p>
+              </div>
+            </div>
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__left-box">
+                <a href="https://parrome.github.io/task5/page1/" target="_blank" class="projects-container__img">
+                  <img src="./img/layout2.jpg" alt="Layout 2" />
+                </a>
+              </div>
+              <div class="projects-container__right-box">
+                <h3>Authorization form</h3>
+                <p> Centering, field highlighting, pixel precision, transparency. Using html and kss.</p>
+              </div>
+            </div>
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__left-box">
+                <a href="https://parrome.github.io/task7/" target="_blank" class="projects-container__img">
+                  <img src="./img/adaptiv.jpg" alt="Adaptive" />
+                </a>
+              </div>
+              <div class="projects-container__right-box">
+                <h3>Adaptive</h3>
+                <p> Adaptive layout based on breakpoints using media queries. Use of HTML and CSS.</p>
+              </div>
+            </div>
+            <div class="projects-container__wrap-box">
+              <div class="projects-container__codewars">
+                <h3>Credit Card Mask</h3>
+                <br>
+                <p>Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.</p>
+                <pre><code class="js">function maskify(cc) {
+
+                    const lenStr = cc.length;
+                    let result ='';
+                    
+                    if (lenStr > 4) {
+                      let lattice = lenStr - 4;
+                      for (let i = 0; i &lt; lattice; i = i + 1){
+                        result = result + '#';
+                      }
+                      result = result + cc[lenStr - 4] + cc[lenStr - 3] + cc[lenStr - 2] + cc[lenStr - 1];
+                    } else {
+                      switch (lenStr) {
+                          case 4: result = result + cc[lenStr - 4] + cc[lenStr - 3] + cc[lenStr - 2] + cc[lenStr - 1];
+                          break;
+                          case 3: result = result + cc[lenStr - 3] + cc[lenStr - 2] + cc[lenStr - 1];
+                          break;
+                          case 2: result = result + cc[lenStr - 2] + cc[lenStr - 1];
+                          break;
+                          case 1: result = result + cc[lenStr - 1];
+                          break;
+                      }
+                    }
+                  return result;
+                  
+                  }
+              </code></pre>
+              </div>
+            </div>
+          </div>
+          <!-- work experience -->
+          <div>
+            <h3 class="about-me-title experience">Work Experience</h3>
+            <!-- company 1 -->
+            <div>
+              <h4 class="profession-title">Customer Service Manager <span class="profession-company"> Disel Common Rail </span></h4>
+              <span class="profession-time"> September 2014 year - september 2015 year <span class="profession-devider"> | </span>Belarus </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">
+                  Working with clients.
+                </li>
+                <li class="profession-duties-item">Maintaining primary documentation.</li>
+                <li class="profession-duties-item">Technical consultation.</li>
+                <li class="profession-duties-item">
+                  Ensuring the timeliness of work..
+                </li>
+              </ul>
+            </div>
+            <!-- company 2 -->
+            <div>
+              <h4 class="profession-title">Customer Service Manager <span class="profession-company"> Opel AG</span></h4>
+              <span class="profession-time"> September 2015 year - march 2017 year <span class="profession-devider"> | </span>Belarus </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">
+                  Acceptance of delivery of cars for service.
+                </li>
+                <li class="profession-duties-item">Working with specialized programs for calculating the standardization of working hours.</li>
+                <li class="profession-duties-item">Registration of clients for service.</li>
+              </ul>
+            </div>
+            <!-- company 3 -->
+            <div>
+              <h4 class="profession-title">Customer Service Manager <span class="profession-company"> Audi AG</span></h4>
+              <span class="profession-time"> September 2017 year - march 2020 year <span class="profession-devider"> | </span>Belarus </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">
+                  Distribution of work among specialists. Coordination between the client and the repair area.
+                </li>
+                <li class="profession-duties-item">Control over the performance of the work performed before delivery.</li>
+                <li class="profession-duties-item">Ensuring the implementation of the agreements received.</li>
+              </ul>
+            </div>
+            <!-- education -->
+            <div class="education-container education">
+              <h3 class="about-me-title">Education</h3>
+              <h4 class="university-title">Belarusian National Technical University</h4>
+              <p class="specialization" >Mechanical engineer</p>
+              <span class="profession-time">September 2009 - June 2014 <span class="profession-devider"> | </span>Belarus</span>
+            </div>
+            </div>
+      </div>
+      </main>
+        <!-- footer -->
+      <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-mygitbox">
+                <img class="footer-logo-git" src="./img/git.png" alt="my github url" />
+                <a class="footer-gitlink" href="https://github.com/Parrome/rsschool-cv">my github</a>
+            </div>
+            <div class="footer-year">
+                2021
+            </div>
+            <div class="footer-rsbox">
+                <img class="footer-logo-rs" src="./img/rs_school.svg" alt="RS School" />
+                <a class="footer-rslink" href="https://rs.school/">RS School</a>
+            </div>
+        </div>        
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
